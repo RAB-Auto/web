@@ -9,7 +9,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: #f2f2f2;
         }
         .navbar {
             background-color: #333;
@@ -29,18 +30,16 @@
         }
         .container {
             padding: 20px;
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
+            background-color: #2a5298;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             border-radius: 8px;
         }
-        h1, h2, h3 {
-            color: #333;
+        h1, h2, h3, h4, p {
+            color: #f2f2f2;
         }
         p, li {
-            color: #555;
             line-height: 1.6;
         }
         ul {
@@ -52,8 +51,26 @@
             margin: 20px 0;
         }
         .images img {
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .join-now {
+            background-color: #1e3c72;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .join-now a {
+            color: #f2f2f2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .join-now a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -66,16 +83,23 @@
         <a href="contact-us.html">Contact Us</a>
     </div>
 
-    <div class="container">
+    <div class="container section">
         <h1>Welcome to RAB (Reverse Stock Automation Bot)</h1>
-        
         <div class="images">
             <img src="https://media.discordapp.net/attachments/1240105334262075447/1266818601365540944/rab.png?ex=66a68842&is=66a536c2&hm=252718729f28f9b384e5b1318251983413a3c9c764c49f01addb705215c5ae49&=&format=webp&quality=lossless&width=350&height=350" alt="RAB">
             <img src="https://media.discordapp.net/attachments/1261882396605681675/1262610041786077317/rab.png?ex=66a661fc&is=66a5107c&hm=2784c0ecf163256b5a1415a6f07525bf1823ca46b2b7dac91f6195c8a8926803&=&format=webp&quality=lossless&width=676&height=676" alt="RAB Bot">
             <img src="https://media.discordapp.net/attachments/1261882396605681675/1262610042276937878/StockFinder.png?ex=66a661fc&is=66a5107c&hm=4786a3b4de059c6b4cf7d87da54e474ed39ee59105828d3d526faee9e25cd4d8&=&format=webp&quality=lossless&width=676&height=676" alt="Stock Finder">
         </div>
-        
+        <div class="join-now">
+            <h2>Join Now</h2>
+            <p>Join our Discord community to get started with RAB!</p>
+            <p><a href="https://discord.gg/dxg33EgDwQ" target="_blank">Join our Discord Server</a></p>
+        </div>
+    </div>
+
+    <div class="container section">
         <h2>Reverse Stock Split Arbitrage Strategy</h2>
+        
         <h3>Reverse Splits</h3>
         <p>A stock can combine multiple shares, reducing the number of shares while increasing the share price.</p>
         <p>Example: You have 100 shares of a stock worth $0.05 per share, the stock performs a 20:1 reverse split leaving you with 5 shares worth $1 per share. Your investment value was worth $5 both before and after the reverse split.</p>
@@ -107,8 +131,11 @@
             <li>Fennel</li>
         </ul>
         <p>*For any questions you might have, or anything you want clarification on, DM lightness9116*</p>
+    </div>
 
+    <div class="container section">
         <h2>Getting Started with RAB (Reverse Stock Automation Bot)</h2>
+        
         <h3>Options for Purchase</h3>
         <ul>
             <li>$5/MONTH - RAB Picks</li>
@@ -117,8 +144,9 @@
         </ul>
         
         <h3>Steps to Get Started:</h3>
+        
         <h4>1. Read and Accept Terms:</h4>
-        <p>Review our <a href="privacy-policy.html">Terms and Conditions</a> and <a href="terms-of-conditions.html">Privacy Policy</a>.</p>
+        <p>Review our <a href="https://docs.google.com/document/d/1DMjgF1nhWOWhtaYET3wN3CcRqvwkfSUAy0M4OmEIuYU/edit?usp=sharing" target="_blank">Terms and Conditions</a> and <a href="https://docs.google.com/document/d/1ydVHsVDyDucekHQ72pF1km3Doi_fgQLWVR3YQtxnr5Q/edit?usp=sharing" target="_blank">Privacy Policy</a>.</p>
         <p>By proceeding, you acknowledge that you have read, understood, and accepted these terms.</p>
         
         <h4>2. Contact Us for Access:</h4>
@@ -141,10 +169,11 @@
         <p><strong>Security:</strong> Your security is our priority. Ensure you follow the setup instructions carefully to maintain the integrity of your credentials.</p>
         <p><strong>Limitations:</strong> RAB is not responsible for any actions taken by brokerage accounts, including flagging or removal. Financial losses incurred while using the bot are your responsibility.</p>
         <p><strong>Support:</strong> If you encounter any issues, our support team is here to help.</p>
-        
+    </div>
+
+    <div class="container section">
         <h2>Contact Us</h2>
         <p>For any questions or support, please contact us via Discord.</p>
-
         <h2>Brokerages We Currently Support:</h2>
         <ul>
             <li>Robinhood (05/17/2024)</li>
@@ -154,6 +183,12 @@
             <li>Tradier (06/06/2024)</li>
             <li>Fennel (07/03/2024)</li>
         </ul>
+    </div>
+
+    <div class="join-now">
+        <h2>Join Now</h2>
+        <p>Join our Discord community to get started with RAB!</p>
+        <p><a href="https://discord.gg/dxg33EgDwQ" target="_blank">Join our Discord Server</a></p>
     </div>
 
 </body>
